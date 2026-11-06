@@ -1,0 +1,96 @@
+PI Extraction Guidelines
+-------------------------
+
+Purpose:
+This document defines the default extraction style and workflow for processing award agreements
+into meeting-ready PI Checklists. It ensures consistency across all project chats.
+
+Default Extraction Style:
+- Output is structured to match the PI Checklist form order exactly.
+- Information is presented in plain language first, with citations provided at the end of each item.
+- The extraction is designed to be digestible for the PI and Post Award team, serving as the live meeting document.
+
+Source Tags:
+Each detail is labeled with a source tag to indicate its origin:
+- [Doc] – Directly stated in the award agreement.
+- [Interp] – Inferred from multiple parts of the agreement.
+- [Absent] – Not in the agreement; value derived from omission.
+- [Internal] – Filled from CSUCI records or post-award sources.
+
+Follow-Up Icons:
+Icons are used to highlight follow-up needs:
+- 🔷 Information typically sourced from other internal docs or finalized after the meeting.
+- 🟡 Mentioned but unclear/incomplete; confirm with sponsor or PI.
+- 🟥 Missing & time-sensitive; resolve before or during the setup meeting.
+
+Command Trigger:
+Use the shorthand phrase: "Nova, run the PI extraction."
+This triggers a full extraction in the default style. Alternate phrasing like "PI extraction" will also be recognized.
+
+Workflow Notes:
+- Extractions are meeting-ready and can be sent directly to the PI and Post Award team.
+- Plain language is prioritized for clarity; citations are included for quick verification.
+- A Follow-Up section at the bottom isolates 🟡 and 🟥 items as discussion points.
+- The Common Clauses Library will be updated behind the scenes with clause text and locations for future reference.
+
+----------------------------------
+Example Extraction Snippet
+----------------------------------
+
+Award Extraction
+- Sponsor: Example Sponsor [Doc] (p. 1)
+- Date Received: 09/25/2025 [Internal]
+
+Investigator(s)
+- Investigator Name(s): Dr. Jane Doe [Doc]
+- Program: Biology [Doc]
+- Email: [Internal]
+- Extension: [Internal]
+
+Division & Department
+- Division: [Internal]
+- Department: Biology [Doc]
+- Department Number: [Internal]
+- Department Chair / Supervisor: [Internal]
+
+Award Information
+- Sponsoring Agency: Example Sponsor [Doc]
+- Program Name: Research Excellence Program [Doc]
+- Title of Proposal: Study of Coastal Ecosystems [Interp]
+- Award Number: [🟡 Absent] – Not provided in agreement.
+- Proposal Number: [Internal]
+- Q Number: [Internal]
+- NSF HERD Field: [Internal]
+- Award Category: [Internal]
+
+Project Period
+- Start Date: 07/01/2025 [Doc] (p. 2)
+- End Date: 06/30/2028 [Doc] (p. 2)
+
+Budget
+- Award Amount: $100,000 [Doc] (p. 3)
+- Match Amount: $0 [Absent]
+- Total Budget: $100,000 [Doc] (p. 3)
+
+Grant Provisions
+- Termination [Doc]: Sponsor may terminate with 30 days’ notice; PI may terminate for nonpayment.
+- Amendments [Doc]: Changes must be in writing and signed by both parties.
+- Carry Forward [Absent]: Not addressed in agreement.
+- Name Use [Doc]: Sponsor’s name/logo cannot be used without written permission.
+- Intellectual Property [Doc]: Sponsor retains ownership of all work products.
+
+Reporting Requirements
+Programmatic Reporting (PI Responsibility)
+- Type of Reports [Interp]: Annual progress updates and a final report.
+- Due Dates [Absent]: No specific dates provided.
+- Submission Method [Doc]: Reports submitted to Sponsor’s representative.
+
+Financial Reporting (Grant Accountant Responsibility)
+- Invoicing Instructions [Doc]: Quarterly invoices required.
+- Report Types [Absent]: No additional financial reports beyond invoices.
+- Special Notes [Doc]: Payments capped at $100,000 total.
+
+Follow-Up (Meeting Discussion Points)
+- 🟡 Award Number – Confirm with sponsor records.
+- 🔷 PI Email – Add from CSUCI directory.
+- 🔷 NSF HERD Field – Add from internal classification.
