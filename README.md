@@ -162,18 +162,35 @@ No agent in this repository should be treated as an independent authority to app
 
 ## Repository Resources
 
-This repository is intended to grow as public-facing materials are reviewed and prepared.
+This repository contains publicly available resources developed through our experiments in AI-supported research administration.
 
-Planned resources include:
+### Available Now
 
-* Penny and Scout agent seeds.
-* Historical award-extraction workflow guidelines.
-* Examples illustrating the evolution from prompts to structured workflows.
-* Information-literacy and citation practices.
-* Workflow testing and evaluation guidance.
-* Presentation resources from NCURA Denver 2026.
+**Agent Seeds**
+- [Penny — Award Setup and Interpretation](CSUCI_PI_Award_Extraction_Agent_Training_Seed.md): A reusable specification for award agreement review, source classification, citations, and human oversight.
+- [Scout — Grant Solicitation Review](Scout_Grant_Solicitation_Agent_Training_Seed.md): A reusable specification for supporting pre-award solicitation analysis and proposal readiness.
 
-Materials will be added as they are prepared and cleared for public sharing. Examples may be redacted or reconstructed to protect institutional and personal information.
+**Historical Workflow Resources**
+- [PI Extraction Guidelines — PDF](PI_Extraction_Guidelines.pdf)
+- [PI Extraction Guidelines — Text](PI_Extraction_Guidelines.txt)
+
+These guidelines document an earlier stage of the award extraction workflow before its development into a dedicated agent.
+
+**Information Literacy**
+- [The Transparent AI Guide](The%20Transparent%20AI%20Guide.pdf): Guidance exploring transparency, source attribution, and responsible AI-supported information practices.
+
+### Planned Additions
+
+Future resources may include:
+
+- Fictional award documents and demonstration materials for practicing AI-assisted award review.
+- Historical examples illustrating the progression from prompts to structured workflows and agents.
+- Workflow testing and evaluation guidance.
+- Presentation resources from NCURA Denver 2026.
+
+All examples will be reviewed before public release. Materials may be redacted or reconstructed to protect institutional and personal information.
+
+**Important:** These resources are educational starting points. Adapt them to your institution's approved AI environment, verify their outputs, and follow applicable privacy, security, and data governance requirements.
 
 ---
 
